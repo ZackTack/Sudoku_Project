@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86323b25-2747-455d-adf0-5a3900e79ac2" name="Default Changelist" comment="" />
+    <list default="true" id="86323b25-2747-455d-adf0-5a3900e79ac2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sudoku app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Suduku app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suduku on text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku Solver [text version].py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="f9a1da0a-5924-41f3-9437-45c205b4685d" />
   </component>
@@ -31,8 +39,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.Suduku app">
-    <configuration name="Suduku app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Sudoku app">
+    <configuration name="Sudoku Solver [text version]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sudoku Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Suduku app.py" />
+      <option name="SCRIPT_NAME" value="D:\University of Waterloo\Python Exercises\Sudoku Project\Sudoku Solver [text version].py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="suduku on text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sudoku app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Sudoku Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/suduku on text.py" />
+      <option name="SCRIPT_NAME" value="D:\University of Waterloo\Python Exercises\Sudoku Project\Sudoku app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Suduku app" />
-        <item itemvalue="Python.suduku on text" />
+        <item itemvalue="Python.Sudoku app" />
+        <item itemvalue="Python.Sudoku Solver [text version]" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +101,19 @@
       <updated>1581611135867</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="361" key="#Notifications" timestamp="1581820547341">
@@ -111,38 +132,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="928" y="517" width="700" height="441" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581823203858" />
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom" timestamp="1581646904087">
+    <state width="2539" height="399" key="GridCell.Tab.0.bottom" timestamp="1582683745001">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581646904087" />
-    <state width="2539" height="399" key="GridCell.Tab.0.center" timestamp="1581646904087">
+    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745001" />
+    <state width="2539" height="399" key="GridCell.Tab.0.center" timestamp="1582683745000">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581646904087" />
-    <state width="2539" height="399" key="GridCell.Tab.0.left" timestamp="1581646904087">
+    <state width="2539" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745000" />
+    <state width="2539" height="399" key="GridCell.Tab.0.left" timestamp="1582683745000">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581646904087" />
-    <state width="2539" height="399" key="GridCell.Tab.0.right" timestamp="1581646904087">
+    <state width="2539" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745000" />
+    <state width="2539" height="399" key="GridCell.Tab.0.right" timestamp="1582683745001">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581646904087" />
-    <state width="2539" height="495" key="GridCell.Tab.1.bottom" timestamp="1581625487386">
+    <state width="2539" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745001" />
+    <state width="2539" height="495" key="GridCell.Tab.1.bottom" timestamp="1582666857683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="495" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581625487386" />
-    <state width="2539" height="495" key="GridCell.Tab.1.center" timestamp="1581625487386">
+    <state width="2539" height="495" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582666857683" />
+    <state width="2539" height="495" key="GridCell.Tab.1.center" timestamp="1582666857683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="495" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581625487386" />
-    <state width="2539" height="495" key="GridCell.Tab.1.left" timestamp="1581625487386">
+    <state width="2539" height="495" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582666857683" />
+    <state width="2539" height="495" key="GridCell.Tab.1.left" timestamp="1582666857683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="495" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581625487386" />
-    <state width="2539" height="495" key="GridCell.Tab.1.right" timestamp="1581625487386">
+    <state width="2539" height="495" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582666857683" />
+    <state width="2539" height="495" key="GridCell.Tab.1.right" timestamp="1582666857683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="495" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581625487386" />
+    <state width="2539" height="495" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582666857683" />
     <state x="783" y="345" key="SettingsEditor" timestamp="1581822999054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
