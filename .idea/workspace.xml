@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86323b25-2747-455d-adf0-5a3900e79ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sudoku app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Suduku app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suduku on text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku Solver [text version].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sudoku app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sudoku app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -100,6 +103,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581611135867</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updates on Sudoku app.py:&#10;- add puzzle,input numpad&#10;- add new,hint,solve,clear,quit buttons&#10;- new button is to load a new puzzle (unfinished)&#10;- hint is to fill in a correct number (unfinished)&#10;- clear is to clear all current inputs&#10;- quit is to quit the application">
+      <created>1582683981212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582683981212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,11 +126,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updates on Sudoku app.py:&#10;- add puzzle,input numpad&#10;- add new,hint,solve,clear,quit buttons&#10;- new button is to load a new puzzle (unfinished)&#10;- hint is to fill in a correct number (unfinished)&#10;- clear is to clear all current inputs&#10;- quit is to quit the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates on Sudoku app.py:&#10;- add puzzle,input numpad&#10;- add new,hint,solve,clear,quit buttons&#10;- new button is to load a new puzzle (unfinished)&#10;- hint is to fill in a correct number (unfinished)&#10;- clear is to clear all current inputs&#10;- quit is to quit the application" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="872" y="361" key="#Notifications" timestamp="1581820547341">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="361" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1581820547341" />
+    <state x="931" y="298" key="CommitChangelistDialog2" timestamp="1582683980178">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="931" y="298" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1582683980178" />
     <state x="1060" y="444" key="FileChooserDialogImpl" timestamp="1581822891332">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -132,22 +151,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="928" y="517" width="700" height="441" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581823203858" />
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom" timestamp="1582683745001">
+    <state width="2539" height="399" key="GridCell.Tab.0.bottom" timestamp="1582751085719">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745001" />
-    <state width="2539" height="399" key="GridCell.Tab.0.center" timestamp="1582683745000">
+    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1582751085719" />
+    <state width="2539" height="399" key="GridCell.Tab.0.center" timestamp="1582751085719">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745000" />
-    <state width="2539" height="399" key="GridCell.Tab.0.left" timestamp="1582683745000">
+    <state width="2539" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1582751085719" />
+    <state width="2539" height="399" key="GridCell.Tab.0.left" timestamp="1582751085719">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745000" />
-    <state width="2539" height="399" key="GridCell.Tab.0.right" timestamp="1582683745001">
+    <state width="2539" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1582751085719" />
+    <state width="2539" height="399" key="GridCell.Tab.0.right" timestamp="1582751085719">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582683745001" />
+    <state width="2539" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1582751085719" />
     <state width="2539" height="495" key="GridCell.Tab.1.bottom" timestamp="1582666857683">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -172,6 +191,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1110" y="572" key="VCS.EditChangelistDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581820560147" />
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1582684283169">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1582684283169" />
+    <state x="1091" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582684008080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1091" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1582684008080" />
     <state x="1110" y="494" key="svn.repositoryBrowser" timestamp="1581820478860">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

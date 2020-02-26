@@ -21,24 +21,13 @@ class Application:
                 cell = tk.Label(self.grid_layout, width=10, height=5, text=self.origin_board[row][col] if self.origin_board[row][col] != 0 else "", font=("Courier", 12), borderwidth=1, relief="solid",
                                 bg="white")
                 cell.grid(row=row, column=col, sticky="nsew", padx=2, pady=2)
-        self.grid_layout.grid(row=1, column=1, padx=150)
-
-        # Create 3x3 grid for number input
-        self.numpad_layout = tk.Frame(self.master)
-        count = 0
-        for row in range(3):
-            for col in range(3):
-                numpad = tk.Label(self.numpad_layout, width=10, height=5, text=count + 1, font=("Courier", 12), borderwidth=1, relief="solid",
-                                  bg="white")
-                numpad.grid(row=row, column=col, sticky="nsew", padx=2, pady=2)
-                count += 1
-        self.numpad_layout.grid(row=1, column=2)
+        self.grid_layout.grid(row=1, column=1,columnspan=2, padx=1920/4)
 
         # Buttons initialization
         self.button_layout = tk.Frame(self.master)
 
         # Clear button
-        clear_button = tk.Button(self.button_layout, text="Clear", font=("Courier", 12), command=self.clear_button_press).grid(row=1, column=4, padx=50, pady=20)
+        clear_button = tk.Button(self.button_layout, text="Clear", font=("Courier", 12), command=self.clear_button_press).grid(row=1, column=5, padx=50, pady=20)
 
         # New puzzle button
         new_button = tk.Button(self.button_layout, text="New", font=("Courier", 12)).grid(row=1, column=1, padx=50, pady=20)
@@ -46,21 +35,36 @@ class Application:
         # Hint button
         hint_button = tk.Button(self.button_layout, text="Hint", font=("Courier", 12), command=self.hint_button_press).grid(row=1, column=2, padx=50, pady=20)
 
+        # Submit button
+        submit_button = tk.Button(self.button_layout, text="Submit", font=("Courier", 12), command=self.submit_button_press).grid(row=1, column=3, padx=50, pady=20)
+
         # Solve button
-        solve_button = tk.Button(self.button_layout, text="Solve", font=("Courier", 12), command=self.solve_button_press).grid(row=1, column=3, padx=50, pady=20)
+        solve_button = tk.Button(self.button_layout, text="Solve", font=("Courier", 12), command=self.solve_button_press).grid(row=1, column=4, padx=50, pady=20)
 
         # Quit button
-        quit_button = tk.Button(self.button_layout, text="Quit", font=("Courier", 12), command=self.quit_button_press).grid(row=1, column=5, padx=50, pady=20)
+        quit_button = tk.Button(self.button_layout, text="Quit", font=("Courier", 12), command=self.quit_button_press).grid(row=1, column=6, padx=50, pady=20)
 
         self.button_layout.grid(row=2, column=1, columnspan=2, pady=50)
 
+        # Mouse,Key event bind
         self.master.bind("<Button-1>", self.callback)
+        self.master.bind("<KeyPress>",self.keypress)
 
     # Button operations
+    def submit_button_press(self):
+        pass
+
     def hint_button_press(self):
         pass
 
     def solve_button_press(self):
+        # clear the board
+        for row in range(len(self.origin_board)):
+            for col in range(len(self.origin_board[row])):
+                if self.origin_board[row][col] == 0:
+                    self.grid_layout.grid_slaves(row, col)[0].configure(text="")
+
+        # load solved result
         for row in range(len(self.board)):
             for col in range(len(self.board[row])):
                 if self.grid_layout.grid_slaves(row, col)[0]['text'] == "":
@@ -81,6 +85,13 @@ class Application:
         if type(widget) is tk.Label:
             widget.configure(bg="sky blue")
 
+    def keypress(self,event):
+        widget = self.grid_layout.winfo_containing(event.x_root, event.y_root)
+        if type(widget) is tk.Label and widget['bg'] == "sky blue":
+            input = event.char
+            widget.configure(text = input if input.isnumeric() and input != "0" else "",bg="white")
+
+
     # Sudoku functions
     def solver(self, board):
         # find the next empty cell
@@ -88,7 +99,6 @@ class Application:
 
         # exit if all cells are filled
         if not current_cell_coord:
-            # print('\n'.join([str(row).replace(',',' ').replace('[','').replace(']','') for row in board]))
             return True
 
         row, col = current_cell_coord[0], current_cell_coord[1]
